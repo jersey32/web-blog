@@ -15,7 +15,9 @@
   <script type="text/javascript">
   $(window).scroll(function(){
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 200 );
-    $('.nav-link').css('color', '#ffffff;');
+  });
+  $(window).scroll(function(){
+    $('a').toggleClass('scrolled',$(this).scrollTop() > 200);
   });
   </script>
     <title>Hello, world!</title>
@@ -62,10 +64,32 @@
           </section>
       </div>
       <!--Header end-->
+
+      <!-- Featured portfolio section-->
       <section id="port-section">
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-          
+         <div class="container" style="margin-top: 75px;">
+            <div class="row">
+              <div class="section-heading text-center col-md-12">
+                  <h2>Featured
+                    <strong>Portfolio</strong>
+                  </h2>
+              </div>
+            </div>
+         </div>
+         <div class="filters">
+           <ul class="nav justify-content-center">
+             <li class="nav-item">Sample 1</li>
+             <li class="nav-item">Sample 1</li>
+             <li class="nav-item">Sample 1</li>
+             <li class="nav-item">Sample 1</li>
+             <li class="nav-item">Sample 1</li>
+           </ul>
+         </div>
       </section>
+
+
+
+      <!-- End Section-->
       <section id="port-section">
         <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
           
