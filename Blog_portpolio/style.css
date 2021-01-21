@@ -54,7 +54,41 @@ body , html{
 li:hover{
   color: #98bf21 !important;
 }
+li:active{
+  color:#98bf21 !important;
+}
 ul{
   width: 40%;
   margin: auto;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 80%;
+    height: 80%;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin:auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.single-portfolio {
+  border-radius: 5px;
+}
+.single-portfolio {
+  margin-bottom: 50px;
+  display: block;
+}
+.p-inner{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+}
+.thumb{
+  margin-top: 50px;
 }
